@@ -1,6 +1,6 @@
 # VendingMachine
 
-========================
+-----------------------------
 Question - PRACTICAL EXERCISE
 -----------------------------
 Write a program to design Vending Machine using your 'favourite language' with all possible tests
