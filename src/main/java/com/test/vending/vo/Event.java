@@ -1,0 +1,15 @@
+package com.test.vending.vo;
+
+public enum Event {
+    COIN_INSERTED,
+    ITEM_SELECTED,
+    REFUND_SELECTED,
+    LOAD_ITEM,
+    WRONG_ITEM,
+    INVALID_ITEM,
+    INVALID_COIN,
+    INSUFFICIENT_MONEY_INSERTED,
+    INSUFFICIENT_CHANGE_IN_MACHINE,
+    DISPENSE,
+    OUT_OF_STOCK;
+}
