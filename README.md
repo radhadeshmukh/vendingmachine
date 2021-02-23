@@ -27,11 +27,11 @@ mvn test
 
 A little bit about the program
 ------------------------------
-The VendingMachine interface specifies methods for the main requirements in the Question.
-SimpleVendingMachine is the command line implementation of the VendingMachine.
+The `VendingMachine` interface specifies methods for the main requirements in the Question.
+`SimpleVendingMachine` is the command line implementation of the `VendingMachine`.
 In addition to printing commandline output, the SimpleVendingMachine also returns
 the objects back to the calling API. The internal state of VendingMachine is managed via
-VendingMachineStateManager.
+`VendingMachineStateManager`.
 
 Tests
 -----
