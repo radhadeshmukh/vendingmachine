@@ -18,8 +18,12 @@ How to test/build/run
 ---------------------
 This is a java maven project. I have used Eclipse to build, run the tests and program.
 I have built a command line vending machine. To run the program, run the
-com.test.vending.Main class. To run the test, run mvn test from commandline
-or run tests from IDE.
+com.test.vending.Main class. To run the test from commandline, run:
+
+```
+mvn test
+```
+
 
 A little bit about the program
 ------------------------------
@@ -31,10 +35,10 @@ VendingMachineStateManager.
 
 Tests
 -----
-There are tests for the SimpleVendingMachine to test the behaviour. But in addition
-there are tests for VendingMachineStateManager because it is responsible for ensuring
-the SimpleVendingMachine is in the right state for the given set of inputs. There is
-also a test for Coin's compareTo method - this is to ensure the coins get sorted correctly
+There are tests for the `SimpleVendingMachine` to test the behaviour. But in addition
+there are tests for `VendingMachineStateManager` because it is responsible for ensuring
+the `SimpleVendingMachine` is in the right state for the given set of inputs. There is
+also a test for Coin's `compareTo` method - this is to ensure the coins get sorted correctly
 for dispensing the remaining change back to user.
 
 ----*----*----*----*----*----*----*----*----*----*----*----*----*----*----*----*----*----*----
